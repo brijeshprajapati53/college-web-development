@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=EB+Garamond:wght@600&family=Poppins:ital,wght@0,100;0,400;0,500;1,100;1,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=EB+Garamond:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Dosis:wght@600&family=EB+Garamond:wght@600&display=swap');
+
+
+* { padding: 0px;
+  margin: 0px;
+
+  list-style: none;
+}
+
+body {
+  background-color: rgb(220, 234, 230); 
+  
+}
+
+.nav {
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  background-color: rgb(232, 154, 246);
+  width: 100%;
+  border-bottom: 2px solid rgb(53, 52, 46);
+
+}
+
+.logo {
+  width: 100px;
+  height: 30px;
+  padding-left: 20px;ss
+  border-top-width: 23px; 
+   padding-top : 5px
+ 
+}
+
+ .nav  li {
+  list-style: none; 
+  padding: 10px; 
+  
+} 
+
+.list {
+  
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  color: aliceblue;
+  padding-right: 20px;
+  
+}
+
+li a{
+    color: orangered;
+    list-style:none;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-size: larger;
+    
+}
+
+li a:hover{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    filter: drop-shadow(13px 13px 28px white);
+    transition: 1s;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* hero section */
+
+
+.main{background-color: #d5e3e2;
+width: 100%;
+height: 550px;
+}
+
+
+
+
+.hero{    
+  
+     
+    height: 500px; 
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+   display:flex;
+   justify-content:space-between;
+    
+   background-image:linear-gradient(rgb(137, 215, 193),rgb(222, 107, 237));
+}
+
+.hero-content{
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    font-size: 25px;
+    padding-left: 40px;
+    font-family: 'Aladin', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'EB Garamond', serif;
+}
+
+
+
+.btn{
+color: white;
+background-color: orangered;
+border-radius: none;
+padding: 4px;
+border-color: navajowhite;
+margin-top: 20px;
+font-weight: 600;
+border-radius: 7px;
+
+
+}
+
+.hero-img{
+
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    padding-right: 40px;
+    padding-top: 30px;}
+
+
+
+ /* service section  */
+
+.service{
+
+  width: 100%;
+  height: 500px;
+  background-color: rgb(198, 233, 223);
+  text-align: center;
+  padding-top: 20px;
+  
+  
+}
+
+
+
+.cards{ width: 100%;
+     height:230px;
+     display: flex;
+     justify-content: space-evenly;
+     padding: 10px;
+     padding-left: 30px;
+     padding-top: 60px;
+     /* text-align: left; */
+   
+     
+     /* background-color: rgb(86, 16, 16); */
+
+}
+
+
+.cards li{text-align: start;
+padding-left: 8px;
+padding: 3px;
+margin-left: 3px;
+
+
+}
+
+.icon {
+  size: 30px;
+  margin-right: 3px;
+  
+  
+  }
+
+.card1{
+   background-color: bisque; 
+  width: 220px;
+     padding-left: 6px;
+     padding-top: 8px;
+     height: 250px;
+     border: 0.5px solid black;
+     border-radius: 10px;
+
+}
+
+.card1:hover{
+   border: none;
+    filter: drop-shadow (13px 13px 28px  rgb(178, 14, 14) );
+     background-color: rgb(249, 247, 218);
+
+}
+
+
+
+
+ .card2{
+  background-color: bisque; 
+  width: 220px;
+   padding-left: 6px;
+   padding-top: 8px;
+   height: 250px; border: 0.5px solid black;
+   border-radius: 10px;
+
+
+}
+
+.card2:hover{
+  border: none;
+   filter: drop-shadow (13px 13px 28px  rgb(178, 14, 14) );
+    background-color: rgb(249, 247, 218);
+
+}
+
+ .card3{
+  background-color: bisque; 
+  width: 220px;
+   padding-left: 6px;
+   padding-top: 8px;
+   height: 250px; border: 0.5px solid black;
+   border-radius: 10px;
+
+
+}
+
+
+.card3:hover{
+  border: none;
+   filter: drop-shadow (13px 13px 28px  rgb(178, 14, 14) );
+    background-color: rgb(249, 247, 218);
+
+}
+
+.card4{
+  background-color: bisque; 
+  width: 220px;
+   padding-left: 6px;
+   height: 250px;
+   padding-top: 8px; border: 0.5px solid black;
+   border-radius: 10px;
+
+}
+
+
+.card4:hover{
+  border: none;
+   filter: drop-shadow (13px 13px 28px  rgb(178, 14, 14) );
+    background-color: rgb(249, 247, 218);
+
+}
+
+.cards h5 { text-align: center;
+font-size: 30px;}
+
+
+.service_text{
+
+  letter-spacing: 2px;
+  line-height: 13px;
+  font-size: larger;
+
+
+}
+
+.service_text h4{
+
+ color: rgba(255, 128, 0, 0.955);
+
+
+}
+
+/* .cards i {
+  size: 30px;
+} */
+
+
+
+
+
+
